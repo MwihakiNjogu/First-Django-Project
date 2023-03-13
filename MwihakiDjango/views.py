@@ -17,3 +17,6 @@ def blog(request):
 
 def about(request):
     return render(request,'about.html')
+
+def indexpage(request):
+     return render(request,'index.html')
